@@ -9,7 +9,7 @@ import pandas as pd
 class KdjSignal():
 
     def __init__(self):
-        self.author = 'ChannelCMT'
+        self.author = 'BrianLee'
 
     def kdjCross(self,am,paraDict):
         fast_kPeriod = paraDict["fast_kPeriod"]
