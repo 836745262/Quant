@@ -1,0 +1,15 @@
+[{
+    "timeframeMap": { "signalPeriod": "60m" },
+
+    "symbolList": ["IF88:CTP"],
+    "barPeriod": 150,
+    "CCIshortPeriod": 16,
+    "CCIlongPeriod": 36,
+    "short_win": 12,
+    "long_win": 26,
+    "macd_win": 20,
+    "stoplossPct": 0.03,
+    "lot": 2,
+    "posTime": 1,
+    "addPct": 0.01
+}]
