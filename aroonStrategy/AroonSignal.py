@@ -9,7 +9,7 @@ import pandas as pd
 class AroonSignal():
 
     def __init__(self):
-        self.author = 'ChannelCMT'
+        self.author = 'BrianLee'
 
     def AroonCross(self,am,paraDict):
         AroonPeriod = paraDict["AroonPeriod"]
