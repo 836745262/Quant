@@ -1,12 +1,12 @@
 from vnpy.trader.utils import optimize
-from doubleMaIfStrategy import DoubleMaStrategy
+from AdxStrategy import AdxStrategy
 from datetime import datetime
 import os
 import json
 
 def setConfig(root=None):
     # 设置策略类
-    optimize.strategyClass = DoubleMaStrategy
+    optimize.strategyClass = AdxStrategy
     # 设置缓存路径，如果不设置则不会缓存优化结果。
     optimize.root = root
     # 设置引擎参数
