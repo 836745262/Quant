@@ -9,7 +9,7 @@ import pandas as pd
 class adxSignal():
 
     def __init__(self):
-        self.author = 'ChannelCMT'
+        self.author = 'BrianLee'
 
     def adxsignal(self, am, paraDict):
         ADXPeriod = paraDict["ADXPeriod"]
